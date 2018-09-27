@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -12,14 +11,17 @@
     <link href="./assets/css/styles.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
+    <!-- MailChimp -->
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4100906-2"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4100906-2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'UA-4100906-2');
-    </script>
+    </script> -->
 </head>
 
 <body>
@@ -42,19 +44,33 @@
         <!-- hero-panel : begin -->
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <h2>New generation of practice management</h2>
-                <p class="lead">Software that let's you focus on your patients</p>
-                <form>
-                    <div class="form-row align-items-center">
-                        <div class="col-auto">
-                            <label class="sr-only" for="inlineFormInput">Email</label>
-                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Enter Your E-Mail">
-                        </div>
-                        <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-2">Get Early Access</button>
-                        </div>
+                <div class="row">
+                    <div class="col-lg-7 col-sm-12">
+                        <h2 class="display-4">Practice management that allows you to focus on your patients</h2>
                     </div>
-                </form>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-lg-7 col-sm-12">
+                        <p class="lead">Sign up for early access. We'll send you an email when we launch.</p>
+                        <!-- MailChimp Form : Begin -->
+                        <div id="mc_embed_signup">
+                            <form action="https://vetebase.us19.list-manage.com/subscribe/post?u=7169e21c6434b68c020181031&amp;id=5bf32d0bfa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                <div class="form-row" id="mc_embed_signup_scroll">
+                                    <div class="col-lg-8 col-sm-12">
+                                        <input type="email" value="" name="EMAIL" class="email form-control mb-2" id="mce-EMAIL" placeholder="Enter Your E-Mail" required>
+                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7169e21c6434b68c020181031_5bf32d0bfa" tabindex="-1" value=""></div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-12">
+                                        <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary mb-2">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- MailChimp Form : End -->
+                    </div>
+                </div>
+
             </div>
         </div>
         <!-- hero-panel : end -->
@@ -73,71 +89,99 @@
                 </div>
                 <div class="section-content d-none d-sm-block">
                     <div class="container">
-                        <div class="row justify-content-lg-center">
+                        <div class="row justify-content-lg-center mb-5">
                             <div class="col col-lg-8 text-center">
                                 <p>Vetebase is a full featured application that allows Veterinarians and their staff focus on what matters most, their patients. Our aim is to provide the best software that gets out of your way and lets you focus on your practice.</p>
-                                <p>Here is a sampling of some of the features</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <h4>Here is a sampling of some of our awesome features</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section features">
+                <div class="section-content">
+                    <div class="container">
+                        <div class="row mb-lg-4">
+                            <div class="col-lg">
+                                <dl>
+                                    <dt class="mb-2 pb-2"><i data-feather="chevrons-right"></i> Patient &amp; Client Profiles</dt>
+                                    <dd class="px-1">
+                                        <p>Create, manage, and update your patients' information, treatment plans, notes, and much more.</p>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-lg">
+                                <dl>
+                                    <dt class="mb-2 pb-2"><i data-feather="chevrons-right"></i> Appointments</dt>
+                                    <dd class="px-1">Manage your practice's appointments and communicate with your clients.</dd>
+                                </dl>
+                            </div>
+                            <div class="col-lg">
+                                <dl>
+                                    <dt class="mb-2 pb-2"><i data-feather="chevrons-right"></i> Multi-Practice Management</dt>
+                                    <dd class="px-1">Have more than one practice? Vetebase allows you to manage all of them from on application.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="row mb-lg-4">
+                            <div class="col-lg">
+                                <dl>
+                                    <dt class="mb-2 pb-2"><i data-feather="chevrons-right"></i> Practice Whiteboard</dt>
+                                    <dd class="px-1">Show which patient is in each of your exam rooms and how long they have been in the room.</dd>
+                                </dl>
+                            </div>
+                            <div class="col-lg">
+                                <dl>
+                                    <dt class="mb-2 pb-2"><i data-feather="chevrons-right"></i> Inventory Management</dt>
+                                    <dd class="px-1">Running a veterinary practice involves managing an inventory of medicine, hardware, and supplies.</dd>
+                                </dl>
+                            </div>
+                            <div class="col-lg">
+                                <dl>
+                                    <dt class="mb-2 pb-2"><i data-feather="chevrons-right"></i> Staff Scheduling</dt>
+                                    <dd class="px-1">Schedule and track your staff's schedule.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="row mb-lg-4">
+                            <div class="col-lg">
+                                <dl>
+                                    <dt class="mb-2 pb-2"><i data-feather="chevrons-right"></i> Notifications &amp; Reminders</dt>
+                                    <dd class="px-1">
+                                        <p>Create, manage, and update your patients' information, treatment plans, notes, and much more.</p>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div class="col-lg">
+                                <dl>
+                                    <dt class="mb-2 pb-2"><i data-feather="chevrons-right"></i> Reporting</dt>
+                                    <dd class="px-1">Manage your practice's appointments and communicate with your clients.</dd>
+                                </dl>
+                            </div>
+                            <div class="col-lg">
+                                <dl>
+                                    <dt class="mb-2 pb-2"><i data-feather="chevrons-right"></i> Owner Portal</dt>
+                                    <dd class="px-1">Have more than one practice? Vetebase allows you to manage all of them from on application.</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-lg-8 offset-lg-2 col-sm-12 mt-3">
+                                <p class="lead text-center">Vetebase offers many more features to help you run your practice. Enter your email address below to get early access to discover everything Vetebase has to offer.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="section">
-                <div class="section-content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg">
-                                <dl>
-                                    <dt><i data-feather="users"></i> Patient &amp; Client Profiles</dt>
-                                    <dd>Create, manage, and update your patients' information, treatment plans, notes, and much more.</dd>
-                                </dl>
-                            </div>
-                            <div class="col-lg">
-                                <dl>
-                                    <dt><i data-feather="phone-call"></i> Appointments</dt>
-                                    <dd>Manage your practice's appointments and communicate with your clients.</dd>
-                                </dl>
-                            </div>
-                            <div class="col-lg">
-                                <dl>
-                                    <dt><i data-feather="layers"></i> Multi-Practice Management</dt>
-                                    <dd>Have more than one practice? Vetebase allows you to manage all of them from on application.</dd>
-                                </dl>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg">
-                                <dl>
-                                    <dt><i data-feather="monitor"></i> Practice Whiteboard</dt>
-                                    <dd>Show which patient is in each of your exam rooms and how long they have been in the room.</dd>
-                                </dl>
-                            </div>
-                            <div class="col-lg">
-                                <dl>
-                                    <dt><i data-feather="truck"></i> Inventory Management</dt>
-                                    <dd>Running a veterinary practice involves managing an inventory of medicine, hardware, and supplies.</dd>
-                                </dl>
-                            </div>
-                            <div class="col-lg">
-                                <dl>
-                                    <dt><i data-feather="calendar"></i> Staff Scheduling</dt>
-                                    <dd>Schedule and track your staff's schedule.</dd>
-                                </dl>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-lg-12">
-                                <p class="lead text-center">There are many more features. Enter your email address below to get early access to discover everything Vetebase has to offer.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section d-none d-sm-block">
-                <div class="section-header">
+                <div class="section-header mb-3">
                     <div class="container">
                         <div class="row justify-content-lg-center">
-                            <div class="col col-lg-12 text-center">
+                            <div class="col-lg-12 col-sm-12 text-center">
                                 <h3>Be One of the First to Get Access When We Launch!</h3>
                             </div>
                         </div>
@@ -146,18 +190,23 @@
                 <div class="section-content">
                     <div class="container">
                         <div class="row justify-content-lg-center">
-                            <div class="col-lg-6 text-center">
-                                <form>
-                                    <div class="form-row align-items-center">
-                                        <div class="col">
-                                            <label class="sr-only" for="inlineFormInput">Email</label>
-                                            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Enter Your E-Mail">
+                            <div class="col-lg-6 col-sm-12 text-center">
+                                <!-- MailChimp Form : Begin -->
+                                <div id="mc_embed_signup">
+                                    <form action="https://vetebase.us19.list-manage.com/subscribe/post?u=7169e21c6434b68c020181031&amp;id=5bf32d0bfa" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                        <div class="form-row" id="mc_embed_signup_scroll">
+                                            <div class="col-lg-10 col-sm-12">
+                                                <input type="email" value="" name="EMAIL" class="email form-control mb-2" id="mce-EMAIL" placeholder="Enter Your E-Mail" required>
+                                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7169e21c6434b68c020181031_5bf32d0bfa" tabindex="-1" value=""></div>
+                                            </div>
+                                            <div class="col-lg-2 col-sm-12">
+                                                <input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary mb-2">
+                                            </div>
                                         </div>
-                                        <div class="col">
-                                            <button type="submit" class="btn btn-primary mb-2">Get Early Access</button>
-                                        </div>
-                                    </div>
-                                </form>
+                                    </form>
+                                </div>
+                                <!-- MailChimp Form : End -->
                             </div>
                         </div>
                     </div>
@@ -172,5 +221,4 @@
     </div>
     <script>feather.replace()</script>
 </body>
-
 </html>
