@@ -23,11 +23,12 @@ html, body {
         0deg,
         rgba(20,188,132,0.3),
         rgba(20,188,132,0.3)
-    ), url(../images/hero-image-05.jpg);
+    ), url(../images/hero-image.jpg);
     background-position: 0 30%;
     background-size: cover;
     color: #eee;
     letter-spacing: .06em;
+    text-shadow: 2px 2px 7px #333;
 }
 
 .page-header {
